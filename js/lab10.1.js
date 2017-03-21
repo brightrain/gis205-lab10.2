@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
         maxZoom: 18
     }).addTo(map);
 
-    fetch('http://opendata.dc.gov/datasets/e8c2b7ef54fb43d9a2ed1b0b75d0a14d_4.geojson')
+    fetch('//opendata.dc.gov/datasets/e8c2b7ef54fb43d9a2ed1b0b75d0a14d_4.geojson')
         .then(function(response) {
         return response.json();
     })
